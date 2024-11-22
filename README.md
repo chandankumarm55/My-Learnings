@@ -10,100 +10,151 @@ system design
 
 Docker -> https://www.youtube.com/watch?v=pTFZFxd4hOI
 
-Topic to be covered is : 
-1. Basics of Containers and Docker
-What is Docker and Why Use It?
+# Docker Learning Guide
 
-Understand containers vs. virtual machines.
-Benefits of Docker for development and deployment.
-Docker Architecture
+## 1. Basics of Containers and Docker
 
-Docker Engine.
-Images, containers, volumes, networks.
-Docker Hub.
-Installing Docker
+### What is Docker and Why Use It?
+- Understand **containers** vs. **virtual machines**.
+- Benefits of Docker for development and deployment.
 
-Setting up Docker on your operating system (Windows/Mac/Linux).
-2. Working with Docker Containers
-Docker Commands
+### Docker Architecture
+- **Docker Engine**:
+  - Manages the lifecycle of containers.
+- Key components:
+  - **Images**: Read-only templates for containers.
+  - **Containers**: Instances of images.
+  - **Volumes**: Persistent data storage.
+  - **Networks**: Enable communication between containers.
+- **Docker Hub**: A public registry for Docker images.
 
-docker run, docker start, docker stop, docker rm.
-docker ps (list running/stopped containers).
-Container Lifecycle
+### Installing Docker
+- Setting up Docker on your operating system:
+  - **Windows**
+  - **Mac**
+  - **Linux**
 
-Starting, pausing, stopping, restarting, and removing containers.
-Interacting with Containers
+---
 
-docker exec (running commands inside containers).
-Attaching to containers.
-3. Docker Images
-What is a Docker Image?
+## 2. Working with Docker Containers
 
-Image layers and how they work.
-Using Docker Images
+### Docker Commands
+- Common commands:
+  - `docker run`, `docker start`, `docker stop`, `docker rm`
+  - `docker ps` (list running/stopped containers)
 
-Pulling images from Docker Hub (docker pull).
-Running containers from images (docker run <image>).
-Building Docker Images
+### Container Lifecycle
+- Managing containers:
+  - Starting, pausing, stopping, restarting, and removing containers.
 
-Writing Dockerfiles.
-Building images (docker build).
-4. Docker Networking
-Basic Networking Concepts
+### Interacting with Containers
+- `docker exec`: Run commands inside containers.
+- Attaching to containers for interactive use.
 
-Bridge, host, and overlay networks.
-Networking Commands
+---
 
-docker network create, docker network connect.
-Communicating Between Containers
+## 3. Docker Images
 
-Linking containers.
-Exposing ports (-p flag).
-5. Docker Volumes
-Introduction to Data Persistence
+### What is a Docker Image?
+- A lightweight, stand-alone, executable package.
+- Understand **image layers** and how they work.
 
-Volumes vs. bind mounts.
-Using Docker Volumes
+### Using Docker Images
+- Pulling images from Docker Hub: `docker pull <image>`
+- Running containers from images: `docker run <image>`
 
-Creating and managing volumes.
-Mounting volumes in containers.
-6. Docker Compose
-What is Docker Compose?
+### Building Docker Images
+- Writing **Dockerfiles**.
+- Building images: `docker build -t <image_name> .`
 
-Overview and benefits.
-Creating a Docker Compose File
+---
 
-Writing docker-compose.yml.
-Running Multi-Container Applications
+## 4. Docker Networking
 
-Using docker-compose up and docker-compose down.
-7. Docker Registry
-Using Docker Hub
+### Basic Networking Concepts
+- Types of networks:
+  - **Bridge**
+  - **Host**
+  - **Overlay**
 
-Pushing and pulling custom images.
-Private Registries
+### Networking Commands
+- Creating and managing networks:
+  - `docker network create`
+  - `docker network connect`
 
-Setting up a local Docker registry.
-8. Best Practices
-Keeping images lightweight.
-Minimizing layers in Dockerfiles.
-Security considerations (e.g., user permissions in containers).
-9. Advanced Topics (Optional for Beginners)
-Docker Swarm
+### Communicating Between Containers
+- Linking containers.
+- Exposing ports: Use the `-p` flag.
 
-Basics of container orchestration.
-Introduction to Kubernetes
+---
 
-Differences between Docker and Kubernetes.
-Docker Security
+## 5. Docker Volumes
 
-Securing your Docker environment.
-Resources to Learn
-Official Docker Documentation: https://docs.docker.com
-Tutorials and Videos: Look for beginner-friendly tutorials on YouTube.
-Practice Platforms: Use Play with Docker for hands-on practice.
-Suggested Path:
-Start with understanding Docker basics and containers.
-Gradually move to Docker images and networking.
-Use Docker Compose to manage multi-container applications.
-Practice frequently by containerizing small applications.
+### Introduction to Data Persistence
+- Understand **volumes** vs. **bind mounts**.
+
+### Using Docker Volumes
+- Creating and managing volumes:
+  - `docker volume create`
+- Mounting volumes in containers.
+
+---
+
+## 6. Docker Compose
+
+### What is Docker Compose?
+- A tool for defining and running multi-container applications.
+
+### Creating a Docker Compose File
+- Writing a `docker-compose.yml` file.
+
+### Running Multi-Container Applications
+- Start and stop applications:
+  - `docker-compose up`
+  - `docker-compose down`
+
+---
+
+## 7. Docker Registry
+
+### Using Docker Hub
+- Pushing and pulling custom images.
+
+### Private Registries
+- Setting up a local Docker registry.
+
+---
+
+## 8. Best Practices
+- Keeping images lightweight.
+- Minimizing layers in Dockerfiles.
+- Security considerations:
+  - Use limited permissions in containers.
+
+---
+
+## 9. Advanced Topics (Optional for Beginners)
+
+### Docker Swarm
+- Basics of container orchestration.
+
+### Introduction to Kubernetes
+- Differences between Docker and Kubernetes.
+
+### Docker Security
+- Securing your Docker environment.
+
+---
+
+## Resources to Learn
+- **Official Docker Documentation**: [https://docs.docker.com](https://docs.docker.com)
+- **Tutorials and Videos**: Look for beginner-friendly tutorials on YouTube.
+- **Practice Platforms**: Use [Play with Docker](https://labs.play-with-docker.com/) for hands-on practice.
+
+---
+
+## Suggested Path
+1. Start with understanding Docker basics and containers.
+2. Gradually move to Docker images and networking.
+3. Use Docker Compose to manage multi-container applications.
+4. Practice frequently by containerizing small applications.
