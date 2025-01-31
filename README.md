@@ -158,3 +158,184 @@ Docker -> https://www.youtube.com/watch?v=pTFZFxd4hOI
 2. Gradually move to Docker images and networking.
 3. Use Docker Compose to manage multi-container applications.
 4. Practice frequently by containerizing small applications.
+
+
+1. Master the Basics of DSA
+Before diving into advanced topics, ensure you have a strong foundation in the basics:
+
+Data Structures to Learn:
+Arrays and Strings
+
+Key Concepts: Traversal, searching, sorting, two-pointer technique, sliding window.
+
+LeetCode Problems:
+
+Two Sum (Easy)
+
+Maximum Subarray (Easy)
+
+Longest Substring Without Repeating Characters (Medium)
+
+Linked Lists
+
+Key Concepts: Traversal, insertion, deletion, reversing, cycle detection.
+
+LeetCode Problems:
+
+Reverse Linked List (Easy)
+
+Merge Two Sorted Lists (Easy)
+
+Linked List Cycle (Easy)
+
+Stacks and Queues
+
+Key Concepts: LIFO, FIFO, implementation using arrays/linked lists, monotonic stacks.
+
+LeetCode Problems:
+
+Valid Parentheses (Easy)
+
+Implement Queue using Stacks (Easy)
+
+Sliding Window Maximum (Hard)
+
+Trees and Graphs
+
+Key Concepts: Binary trees, BST, tree traversals (in-order, pre-order, post-order), BFS, DFS.
+
+LeetCode Problems:
+
+Maximum Depth of Binary Tree (Easy)
+
+Validate Binary Search Tree (Medium)
+
+Course Schedule (Medium)
+
+Hash Tables
+
+Key Concepts: Hashing, collision resolution, frequency counting.
+
+LeetCode Problems:
+
+First Unique Character in a String (Easy)
+
+Group Anagrams (Medium)
+
+Two Sum (Easy)
+
+Heaps
+
+Key Concepts: Min-heap, max-heap, priority queues.
+
+LeetCode Problems:
+
+Kth Largest Element in an Array (Medium)
+
+Merge k Sorted Lists (Hard)
+
+Algorithms to Learn:
+Sorting and Searching
+
+Key Concepts: Binary search, merge sort, quick sort.
+
+LeetCode Problems:
+
+Binary Search (Easy)
+
+Search in Rotated Sorted Array (Medium)
+
+Recursion and Backtracking
+
+Key Concepts: Base case, recursive case, permutations, combinations.
+
+LeetCode Problems:
+
+Subsets (Medium)
+
+Permutations (Medium)
+
+Dynamic Programming (DP)
+
+Key Concepts: Memoization, tabulation, state transition.
+
+LeetCode Problems:
+
+Climbing Stairs (Easy)
+
+Longest Increasing Subsequence (Medium)
+
+Coin Change (Medium)
+
+Greedy Algorithms
+
+Key Concepts: Optimal local choices, activity selection, fractional knapsack.
+
+LeetCode Problems:
+
+Maximum Subarray (Easy)
+
+Jump Game (Medium)
+
+Graph Algorithms
+
+Key Concepts: BFS, DFS, Dijkstra's algorithm, topological sorting.
+
+LeetCode Problems:
+
+Number of Islands (Medium)
+
+Clone Graph (Medium)
+
+2. Learn Problem-Solving Patterns
+Many DSA problems can be solved using common patterns. Familiarize yourself with these patterns:
+
+Two Pointers
+
+Used for problems involving arrays or linked lists.
+
+Example Problems:
+
+Container With Most Water (Medium)
+
+3Sum (Medium)
+
+Sliding Window
+
+Used for subarray or substring problems.
+
+Example Problems:
+
+Minimum Size Subarray Sum (Medium)
+
+Longest Repeating Character Replacement (Medium)
+
+BFS/DFS
+
+Used for tree and graph traversal.
+
+Example Problems:
+
+Binary Tree Level Order Traversal (Medium)
+
+Number of Islands (Medium)
+
+Dynamic Programming
+
+Used for optimization problems.
+
+Example Problems:
+
+House Robber (Medium)
+
+Longest Common Subsequence (Medium)
+
+Backtracking
+
+Used for problems involving permutations or combinations.
+
+Example Problems:
+
+Combination Sum (Medium)
+
+N-Queens (Hard)
