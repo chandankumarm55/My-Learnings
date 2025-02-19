@@ -1,3 +1,19 @@
+# DEVOPS ROAD MAP
+
+Linux , 
+Networking , 
+Git , 
+Programming - Python , 
+Contrainerzation - Docker
+CI/CD  - jenkins 
+Orchestration - K8s
+Infra Serivce 
+
+
+
+
+
+
 this repo contains all my learnings and completed learnings 
 
 Daily Task :
