@@ -1,0 +1,41 @@
+# when we need to talk with the linux kernal we use shell lanauge to intract with the linux 
+oeprating system 
+
+why we need sheel because operating system of the linux it built by c lanauage inorder to intract
+with the linux kernel , it provides a gatway between user and kernal
+
+bootloading -> when the computer start's , when we press the power on button during this period 
+GRUB -> It program on linu that loads and manges the boot process . 
+
+desktop environement -> 
+
+system architecuture ->hardware -> kernel -> sheel -> application 
+sheel tells to kernel to do the task's 
+
+process states  -> runnning , sleeping , stoped , terminated , zombia 
+
+ls  - > list everything in the directory 
+mkdir -> make directory 
+ls -l -> details of the folder including the timings , permission etc 
+pwd -> working directory (persent working directory)
+touch -> creating a new file 
+clear -> clearing the terminal
+cd -> change directory 
+rm -> removing the file (deleting only the file)
+rm -r -> -r flag and recursivelly everything in the particular in folder 
+rmdir -> remove the directory 
+cat demo.txt -> show the content in the demo.txt
+echo -> it is used to print the txt 
+echo "hello world" > demo.txt -> in this we are inserting the hello world in demot.txt here > it redirect in to demo.txt
+head -> it will print the frist 5 lines
+tail -> it will print the last 5 lines
+tail -f -> it will monitor the file
+cp -> this is used to copy the files
+cp -r -> copy the entire folder and paste it another folder
+mv -> move the files from one folder to another folder and also it is used to rename the folder
+wc -> word count , it is used to how many words and capacity 
+
+hard link cs soft link 
+soft link is used to link the another file into this names soft link folder , whne the original data is changed 
+it will change in the soft link folder also 
+
