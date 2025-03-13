@@ -39,3 +39,17 @@ hard link cs soft link
 soft link is used to link the another file into this names soft link folder , whne the original data is changed 
 it will change in the soft link folder also 
 
+
+cut -> cut is used to extract the short portion from the file  
+cut -b 1 myfile.txt
+
+tee -> echo "Hello" | tee hello.txt , it wil print the hello and also it will create a new file named hello and it will add the content 
+
+sort -> it is used to sort
+
+diff -> dff hello.txt demofile.txt  , it will show thw difference for two file
+wc -> same as diff but for multiple files
+
+ssh -> it is used to connect with instance
+
+
