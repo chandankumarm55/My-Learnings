@@ -1,0 +1,15 @@
+SSH -> Secure Shell
+
+connecting to virtual machine - >  ssh -i ""C:\Users\Chand\OneDrive\Documents\Downloads\chandan-pratice.pem"" ubuntu@ec2-52-66-194-210.ap-south-1.compute.amazonaws.com
+Welcome to Ubuntu 24.04.1 LTS (GNU/Linux 6.8.0-1021-aws x86_64)
+
+in this we have to specify the location where the .pem file downloaded 
+
+top ->  list the all the processor 
+
+free ->  list the comsume of the processor and including how much we used and how much is pending
+
+nohup  -> it will store the all the logs in nohup.txt
+
+tail -n   5   nohup.txt -> -n will be the number of line 
+
