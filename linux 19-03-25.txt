@@ -1,0 +1,3 @@
+It’s plain text that contains a series of commands you’d type in the Linux terminal.
+When you run the .sh file, it executes those commands automatically.
+
